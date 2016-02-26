@@ -1,0 +1,35 @@
+%===============================================================================
+% papers_jk.tex : Papers Jens Kleinjung
+%===============================================================================
+
+%_DOCUMENT-SETTINGS_______________________________________________________
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+            margin=20mm,
+            includemp]{geometry}
+
+\special{papersize=210mm,297mm}
+
+\usepackage[english]{babel}
+%\usepackage{html}
+
+\pagestyle{plain}
+\normalsize
+
+%_BEGIN________________________________________________________________________
+\begin{document}
+
+%______________________________________________________________________________
+\renewcommand\refname{Publications}
+\nocite{*}
+\bibliographystyle{year-rev}
+\bibliography{papers_jk}
+
+%______________________________________________________________________________
+\end{document}
+\end{input}
+
